@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XIMDBPodLib_Example' do
+  pod 'XIMDBPodLib', :path => '../'
+
+  target 'XIMDBPodLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
