@@ -1,0 +1,6 @@
+framework module Pods_XIMDBPodLib_Tests {
+  umbrella header "Pods-XIMDBPodLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

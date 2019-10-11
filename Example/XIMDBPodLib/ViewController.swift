@@ -7,11 +7,18 @@
 //
 
 import UIKit
+//import XIMDBPodLib
+//import XIMDBPodLib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        DBPool.init()
+//        BLog()
+//        CLog()
+        let sc = StockCenter.init()
+        sc.insertDemo()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

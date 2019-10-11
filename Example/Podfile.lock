@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.7):
+    - FMDB/standard (= 2.7.7)
+  - FMDB/standard (2.7.7)
+  - XIMDBPodLib (0.1.0)
+
+DEPENDENCIES:
+  - FMDB
+  - XIMDBPodLib (from `../`)
+
+SPEC REPOS:
+  "git@code.aliyun.com:szfy_ios/SZFYSpecs.git":
+    - FMDB
+
+EXTERNAL SOURCES:
+  XIMDBPodLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: bfc5aa852eec7c3ad824b2f5fc3282dfbe545a21
+  XIMDBPodLib: 1c64a9a562f69d311d3eb498f374a050855c04a3
+
+PODFILE CHECKSUM: 39a36d7897732d72ca7649d2867681cb8dcc095a
+
+COCOAPODS: 1.7.5

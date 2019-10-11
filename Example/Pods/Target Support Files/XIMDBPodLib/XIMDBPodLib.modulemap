@@ -1,0 +1,6 @@
+framework module XIMDBPodLib {
+  umbrella header "XIMDBPodLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

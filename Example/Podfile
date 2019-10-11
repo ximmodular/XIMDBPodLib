@@ -1,8 +1,13 @@
 use_frameworks!
 
+source 'git@code.aliyun.com:szfy_ios/SZFYSpecs.git'
+
 target 'XIMDBPodLib_Example' do
   pod 'XIMDBPodLib', :path => '../'
-
+  
+  pod 'FMDB'
+  
+  
   target 'XIMDBPodLib_Tests' do
     inherit! :search_paths
 
